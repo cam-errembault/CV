@@ -1,4 +1,4 @@
-Little project made to help my girlfriend during her exams in EPHEC
+Little project made for one of my lessons in EPHEC, louvain-la-neuve. Jan 2021
 
 color palette used:
 <palette>
