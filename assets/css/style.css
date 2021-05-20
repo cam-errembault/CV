@@ -688,6 +688,9 @@ section {
 /*--------------------------------------------------------------
 # My atouts
 --------------------------------------------------------------*/
+#atouts {
+  background-color: rgb(195, 213, 225);
+}
 .atouts .icon-box {
   padding: 30px;
   position: relative;
@@ -1459,9 +1462,9 @@ background: none;
 }
 
 
-#ambition {
+/* #ambition {
   background-color: rgb(195, 213, 225);
-}
+} */
 
 .amb-text{
   padding: 1em;
@@ -1507,10 +1510,8 @@ background: none;
   height: 200px;
 float: left;}
 
-
-/* .orang-outan{
-  height: 200px;
-  float: right;
-  display: block;
-  margin-left: 10px;
-} */
+#resumePDF{
+  /* display: inline-block; */
+  /* text-align: center; */
+  margin-left: 50%;
+}
