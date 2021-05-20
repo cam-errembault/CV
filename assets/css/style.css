@@ -688,9 +688,7 @@ section {
 /*--------------------------------------------------------------
 # My atouts
 --------------------------------------------------------------*/
-#atouts {
-  background-color: rgb(195, 213, 225);
-}
+
 .atouts .icon-box {
   padding: 30px;
   position: relative;
@@ -1281,32 +1279,38 @@ section {
 # Articles
 --------------------------------------------------------------*/
 
- .art1{
-  background: url("../img/article-1.jpg") center center no-repeat;
+ .comp1{
+  background: url("../img/competence_1.jpg") center center no-repeat;
   background-size: cover;
   width: 100%;
 
 }
-.art2{
- background: url("../img/article-2.jpg") center center no-repeat;
+.comp2{
+ background: url("../img/competence_2.jpg") center center no-repeat;
  background-size: cover;
  width: 100%;
 }
-.art3{
- background: url("../img/article-3.jpg") center center no-repeat;
+.comp3{
+ background: url("../img/competence_3.jpg") center center no-repeat;
  background-size: cover;
  width: 100%;
 }
-.art4{
- background: url("../img/article-4.jpg") center center no-repeat;
+.comp4{
+ background: url("../img/competence_4.jpg") center center no-repeat;
  background-size: cover;
  width: 100%;
 }
-.art5{
- background: url("../img/article-5.jpg") center center no-repeat;
+.comp5{
+ background: url("../img/competence_5.jpg") center center no-repeat;
  background-size: cover;
  width: 100%;
  height: 1300px;
+}
+
+.comp6{
+ background: url("../img/competence_6.jpg") center center no-repeat;
+ background-size: cover;
+ width: 100%;
 }
 
 .artText{
@@ -1332,10 +1336,10 @@ section {
   }
 
 
-#art1, #art3, #art5, #aboutRse, #art5bis{
+#comp1, #comp3, #comp5{
   background-color: rgb(195, 213, 225);
 }
-#art2, #art4{
+#comp2, #comp4, #comp6{
   background-color: rgba(195, 213, 225,0.50);
 }
 
@@ -1462,9 +1466,9 @@ background: none;
 }
 
 
-/* #ambition {
+#ambition {
   background-color: rgb(195, 213, 225);
-} */
+}
 
 .amb-text{
   padding: 1em;
@@ -1503,15 +1507,66 @@ background: none;
 }
 
 .source{
-  font-size: 13px;
+  font-size: 15px;
+  margin-top: 3em;
+
 }
+.btn_doc{
+  background-color:rgb(195, 213, 225);
+  padding: 1em;
+  width: 15em;
+}
+
+.btn_docL{
+  background-color:rgb(153, 181, 198);
+  padding: 1em;
+  width: 15em;
+}
+
 
 .pairi-logo{
   height: 200px;
 float: left;}
 
 #resumePDF{
-  /* display: inline-block; */
-  /* text-align: center; */
+  display: inline-block;
+  text-align: center;
   margin-left: 50%;
+  background-color:rgb(195, 213, 225);
+  padding: 0.8em;
+  font-size: 1.1em;
+}
+
+.moreLess {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.explained{
+  justify-content: left;
+  font-size: 1.25em;
+}
+
+.special{
+  font-style: italic;
+  font-size: 1.6em;
+  font-family: "Satisfy", sans-serif;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.perceptual_img{
+  display: block;
+  margin-left: auto;
+  width: 100%;
+}
+
+.img_comp{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    overflow:  hidden;
 }

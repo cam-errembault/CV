@@ -198,3 +198,20 @@ function moreLessText(btnId) {
     moreText.style.display = "inline";
   }
 }
+
+function moreLessComp(btnId) {
+  var btnText = document.getElementById(btnId);
+  var parentDiv = btnText.closest("div");
+  var parentestDiv = parentDiv.closest("div");
+  var moreText = parentDiv.querySelector('.moreLess');
+   console.log(moreText.style.display);
+  if (moreText.style.display === "flex") {
+    moreText.style.display = "none";
+    btnText.innerHTML = "<i class='bx bx-plus-circle DD-icon'></i>";
+
+  } else {
+    moreText.style.display = "flex";
+    btnText.innerHTML = "<i class='bx bx-minus-circle DD-icon'></i>";
+
+  }
+}
