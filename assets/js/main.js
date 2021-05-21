@@ -207,11 +207,11 @@ function moreLessComp(btnId) {
    console.log(moreText.style.display);
   if (moreText.style.display === "flex") {
     moreText.style.display = "none";
-    btnText.innerHTML = "<i class='bx bx-plus-circle DD-icon'></i>";
+    btnText.innerHTML = "Analyse réflexive &nbsp &nbsp &nbsp<i class='bx bx-plus-circle DD-icon'></i>";
 
   } else {
     moreText.style.display = "flex";
-    btnText.innerHTML = "<i class='bx bx-minus-circle DD-icon'></i>";
+    btnText.innerHTML = "Analyse réflexive &nbsp &nbsp &nbsp<i class='bx bx-minus-circle DD-icon'></i>";
 
   }
 }

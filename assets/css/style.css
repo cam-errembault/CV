@@ -1570,3 +1570,7 @@ float: left;}
     object-fit: cover;
     overflow:  hidden;
 }
+
+.left_margin{
+  margin-left: 1em;
+}
