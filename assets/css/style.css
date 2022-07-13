@@ -589,17 +589,20 @@ section {
   height: 150%
 }
 
-.resume .skills-content {
+.resume .skills-content,
+.career .skills-content {
   margin-top: 30px;
 }
 
-.resume .skills-content .progress {
+.resume .skills-content .progress ,
+.career .skills-content .progress {
   height: 50px;
   display: block;
   background: none;
 }
 
-.resume .skills-content .progress .skill {
+.resume .skills-content .progress .skill,
+.career .skills-content .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
@@ -609,16 +612,19 @@ section {
   color: #3b434a;
 }
 
-.resume .skills-content .progress .skill .val {
+.resume .skills-content .progress .skill .val,
+.career .skills-content .progress .skill .val {
   float: right;
   font-style: normal;
 }
 
-.resume .skills-content .progress-bar-wrap {
+.resume .skills-content .progress-bar-wrap,
+.career .skills-content .progress-bar-wrap {
   background: #e6e8eb;
 }
 
-.resume .skills-content .progress-bar {
+.resume .skills-content .progress-bar,
+.career .skills-content .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
@@ -628,7 +634,8 @@ section {
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
-.resume .resume-title {
+.resume .resume-title,
+.career .career-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -636,14 +643,16 @@ section {
   color: #3b434a;
 }
 
-.resume .resume-item {
+.resume .resume-item,
+.career .career-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #82909c;
   position: relative;
 }
 
-.resume .resume-item h4 {
+.resume .resume-item h4,
+.career .career-item h4 {
   line-height: 18px;
   font-size: 16px;
   font-weight: 700;
@@ -652,7 +661,8 @@ section {
   margin-bottom: 10px;
 }
 
-.resume .resume-item h5 {
+.resume .resume-item h5,
+.career .career-item h5 {
   font-size: 16px;
   background: #eef0f2;
   padding: 5px 15px;
@@ -661,19 +671,23 @@ section {
   margin-bottom: 10px;
 }
 
-.resume .resume-item ul {
+.resume .resume-item ul,
+.career .career-item ul {
   padding-left: 20px;
 }
 
-.resume .resume-item ul li {
+.resume .resume-item ul li,
+.career .career-item ul li {
   padding-bottom: 10px;
 }
 
-.resume .resume-item:last-child {
+.resume .resume-item:last-child,
+.career .career-item:last-child {
   padding-bottom: 0;
 }
 
-.resume .resume-item::before {
+.resume .resume-item::before,
+.career .career-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -689,7 +703,8 @@ section {
 # My atouts
 --------------------------------------------------------------*/
 
-.atouts .icon-box {
+.atouts .icon-box,
+.qualities .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -700,7 +715,8 @@ section {
   border: 1px solid #fff;
 }
 
-.atouts .icon {
+.atouts .icon,
+.qualities .icon {
   margin: 0 auto 20px auto;
   padding-top: 17px;
   display: inline-block;
@@ -711,34 +727,40 @@ section {
   background: rgba(214, 215, 216, 0.6);
 }
 
-.atouts .icon i {
+.atouts .icon i,
+.qualities .icon i {
   font-size: 36px;
   line-height: 1;
   color: #154B6F;
 }
 
-.atouts .title {
+.atouts .title,
+.qualities .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.atouts .title a {
+.atouts .title a,
+.qualities .title a {
   color: #111;
   transition: 0.3s;
 }
 
-.atouts .description {
+.atouts .description,
+.qualities .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.atouts .icon-box:hover {
+.atouts .icon-box:hover,
+.qualities .icon-box:hover {
   border-color: #154B6F;
 }
 
-.atouts .icon-box:hover .title a {
+.atouts .icon-box:hover .title a,
+.qualities .icon-box:hover .title a {
   color: #154B6F;
 }
 
